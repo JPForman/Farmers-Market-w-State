@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Schedule(props){
   return (
-    <div>
+    <div className="bazaarTimes">
     <h3>{props.day}</h3>
     <h3>{props.location}</h3>
     <h3>{props.hours}</h3>

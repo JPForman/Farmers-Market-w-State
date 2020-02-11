@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import SeasonalProduceList from "./SeasonalProduceList"
 
 function SeasonalProduce(props){
   return (
-    <div>
+    <div className="bazaarStock">
     <h3>{props.month}</h3>
-    <h3>{props.selection}</h3>
+    {props.selection.map((produce) =>
+      <li>{produce}</li>
+    )}
   </div>
    );
 }

@@ -48,7 +48,6 @@ const marketSchedule = [
 function ScheduleList(){
   return (
        <div>
-         <hr/>
          {marketSchedule.map((schedule, index) =>
            <Schedule day={schedule.day}
              location={schedule.location}

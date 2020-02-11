@@ -273,7 +273,6 @@ const seasonalProduce = [
 function SeasonalProduceList(){
   return (
        <div>
-         <hr/>
          {seasonalProduce.map((produce, index) =>
            <SeasonalProduce month={produce.month}
              selection={produce.selection}
