@@ -17,14 +17,18 @@ function App() {
     <div className="opening">
     <h1>Beanstalk Bazaar</h1>
     </div>
-    <div className="produceColumns">
+    <div className="gridAwesome">
+
       <div>
         <SeasonalProduceList/>
       </div>
+
       <div>
         <ScheduleList/>
       </div>
+
     </div>
+
     </div>
   );
 }

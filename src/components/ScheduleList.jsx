@@ -35,7 +35,8 @@ const marketSchedule = [
  {
    day: "Friday",
    location: "Hillsdale",
-   hours: "Midnight to 12:30, central Pacific time (military)"
+   hours: "Midnight to 12:30, central Pacific time (military)",
+   booth: "G"
  },
  {
     day: "Saturday",
