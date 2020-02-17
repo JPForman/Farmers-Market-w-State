@@ -5,11 +5,9 @@ import SeasonalProduceList from "./SeasonalProduceList"
 function SeasonalProduce(props){
   return (
     <div className="bazaarStock">
-    <h3>{props.month}</h3>
-    {props.selection.map((produce) =>
-      <li>{produce}</li>
-    )}
-  </div>
+      <h3>{props.month}</h3>
+      <h3>{props.selection}</h3>
+    </div>
    );
 }
 
